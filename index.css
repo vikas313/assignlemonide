@@ -177,13 +177,13 @@
     width: 50%;
     height: 100px;
     border-radius: 0 20px 20px 0;
+    padding:5px;
  
     
 
 }
 .inpara1>p{
-    padding: 20px;
-    padding-left: 20px;
+   margin-left:40px;
 }
 .inparaleft{
     height: 400px;
