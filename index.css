@@ -5,10 +5,11 @@
     font-size: 12px;
     height: 35px;
     position: relative;
-    width: 100px;
+    width: 150px;
     /*  */
     
 }
+
 .uil-search{
     
     position: absolute;
@@ -103,6 +104,14 @@
     opacity: 0.3;
     
     
+}
+.line{
+    width: 0px;
+    height: 200px;
+    
+    
+    border: 1px solid white;
+    opacity: 0.5;
 }
 .sec1{
     color: white;
