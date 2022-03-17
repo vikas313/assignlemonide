@@ -1,10 +1,11 @@
 .btn{
     background-color: black;
     color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     font-size: 12px;
-    height: 25px;
+    height: 35px;
     position: relative;
+    width: 100px;
     /*  */
     
 }
