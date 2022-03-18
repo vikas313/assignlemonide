@@ -1,40 +1,43 @@
+*{
+    font-size: 18px;
+}
 .btn{
     background-color: black;
     color: white;
-    border-radius: 20px;
-    font-size: 12px;
-    height: 35px;
+    border-radius: 2rem;
+    font-size: 0.7rem;
+    height: 2rem;
     position: relative;
-    width: 150px;
+    width: 9rem;
     /*  */
     
 }
 .btn2{
     background-color: white;
     color: black;
-    border-radius: 20px;
-    font-size: 12px;
-    height: 35px;
+    border-radius: 2rem;
+    font-size: 0.7rem;
+    height: 2rem;
     position: relative;
-    width: 150px;
+    width: 9rem;
     /*  */
 }
 
 .uil-search{
     
     position: absolute;
-    margin-left: 28px;
+    margin-left: 1.8rem;
     z-index: 2;
-    margin-top: 7px;
+    margin-top: 0.5rem;
 }
 
 .searchbox{
-    border-radius: 10px;
-    border: 1px solid black;
-    height: 25px;
-    margin-left: 25px;
+    border-radius: 1.5rem;
+    border:0.05rem solid black;
+    height: 1.5rem;
+    margin-left: 1.5rem;
     position: relative;
-    padding-left: 20px;
+    padding-left: 1.5rem;
     z-index: 1;
     
    
@@ -46,14 +49,15 @@
 
 .sec2{
    
-    height: 400px;
+    height: 20rem;
     position: relative;
+    
     
     display: flex;
     justify-content: space-evenly;
     /* align-self: center; */
     align-items: center;
-    padding: 10px;
+    /* padding: 1.8rem; */
    
     
 }
@@ -68,32 +72,38 @@
     left: 0;
     background-size: cover;
     opacity: 0.25;
-    height: 438px;
+    height: 24.3rem;
     
 }
+#btn3{
+    margin-left: 20%;
+    margin-top: 5%;
+}
 .secside1{
-    margin-top: 500px;
+    margin-top: 27.7rem;
     width: 50%;
     
-    border: 1px solid orange;
+    border: 0.05rem solid orange;
+    
 }
 .secside2{
     display: flex;
-    margin-top: 0;
-    margin-left: 100px;
+    
+    margin-left: 5.5rem;
 
 }
 .secside2>img{
-    height: 500px;
+    height: 480px;
+    margin-top: -100px;
 }
 
 
 
 .sec3{
-    height: 200px;
+    height: 26.6rem;
     background-color: #B14B43;
     display: flex;
-    height: 200px;
+    height: 11.11rem;
     /* background-color: orange; */
     display: flex;
     justify-content: space-around;
@@ -104,7 +114,7 @@
 .sec3::before{
     content: '';
     background-image: url('hands.jpg');
-    height: 200px;
+    height: 11.11rem;
     position: absolute;
     top: 0px;
     right: 0;
@@ -117,10 +127,10 @@
 }
 .line{
     width: 0px;
-    height: 200px;
+    height: 11.11rem;
     
     
-    border: 1px solid white;
+    border: 0.05rem solid white;
     opacity: 0.5;
 }
 .sec1{
@@ -132,7 +142,7 @@
 }
 .sec4{
   
-    height: 400px;
+    height: 22.22rem;
      display: flex;
       /* justify-content: space-around; */
      /* align-items: center;  */
@@ -146,7 +156,7 @@
    justify-content: space-around;
    flex-wrap: wrap;
    width: 50%;
-   margin: 20px;
+   margin: 1.11rem;
     
    
 }
@@ -159,85 +169,93 @@
     align-self: center;
 }
 .nums{
-    width: 150px;
+    width: 8.33rem;
     border: none;   
-    height: 100px;
-    border: 1px solid wheat;
-    border-radius: 10px;
-    font-size: 18px;
+    height: 5.55rem;
+    border:0.05rem solid wheat;
+    border-radius: 0.55rem;
+    /* font-size: 18px; */
     display: flex;
     justify-content: center;
     flex-direction: column;
-    box-shadow: 1px 2px wheat;
+    box-shadow:0.05rem 0.11rem wheat;
     /* align-items: center; */
    
 }
 .s1{
-    font-size: 20px;
+    font-size: 1.11rem;
     align-self: center;
     color: #65027F;
 }
 .s2{
-    font-size: 12px;
-    padding: 10px;
+    font-size: 0.66rem;
+    padding: 0.55rem;
   
 }
 .sec5{
-    height: 400px;
+    height: 27.77rem;
     display: flex;
+   
     
 }
-.sec5>h2{
-    padding-left: 20px;
+.sec5>div>h2{
+    margin-left: 10%;
+    margin-top: 8%;
 }
 .inpara1{
     background-color: brown;
     color: white;
-    font-size: 15px;
+    font-size: 0.83rem;
     /* text-align: center; */
-    width: 50%;
-    height: 100px;
-    border-radius: 0 20px 20px 0;
- padding: 5px;
+    width: 90%;
+    height: 8.33rem;
+    border-radius: 0 1.66rem 1.66rem 0;
+ padding: 0.277rem;
     
 
 }
 .inpara1>p{
-   margin-left: 40px;
+   margin-left: 2.22;
+   /* text-align: center; */
+   padding: 5%;
 }
 .inparaleft{
-    height: 400px;
+    /* height: 400px; */
     width: 50%;
     display: inline-flex;
     justify-content: flex-end;
-    align-items: center;
+    /* align-items: center; */
+    
     opacity: 0.8;
 }
 .inparaleft1{
-   height: 100px;
+   height: 8.33rem;
     width: 50%;
     background-color: brown;
     flex-direction: column;
-    border-radius: 20px 0 0 20px;
-    
+    border-radius: 1.66rem 0 0 1.66rem;
+    margin-top: 45%;
+    opacity: 1;
    
 }
 .inparaleft1>img{
-    padding-top: 25px;
-    padding-left: 40px;
+    padding-top: 1.38rem;
+    padding-left: 2.22rem;
+   
   
 }
 
+
 .inparaleft2{
-    height: 400px;
+    height: 27.77rem;
      width: 100%;
      background-color: brown;
-     border-radius: 20px 0 0 20px;
+     border-radius: 1.66rem 0.83rem 0.83rem 1.66rem;
       
  }
   .sec8{
       display: flex;
-      height: 400px;
+      height: 22.22rem;
       justify-content: space-between;
       align-items: center;
   }
@@ -254,13 +272,13 @@
       align-items: center;
       flex-direction: column;
       flex-wrap: wrap;
-      padding: 30px;
+      padding: 1.66rem;
   }
   .hub{
       display: flex;
       flex-direction: column;
       background-color: #F8F8F8;
-      height: 500px;
+      height: 27.77rem;
   }
   .hubimages{
       display: flex;
@@ -278,7 +296,7 @@
      justify-content: center;
      margin-left: 15%;
      margin-top: -5%;
-     border-radius: 20px;
+     border-radius: 1.11rem;
   }
   .hoveredinside{
    align-self: center;
@@ -293,13 +311,13 @@
       
   }
   .footer>ul>li{
-      padding: 5px;
+      padding: 0.27rem;
   }
   .social{
       display: flex;
   }
   .social>li{
-      padding: 5px;
+      padding: 0.27rem;
   }
 
  .uil-facebook-f,.uil-instagram-alt,.uil-twitter,.uil-linkedin,.uil-youtube{
