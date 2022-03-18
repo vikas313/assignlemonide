@@ -234,7 +234,7 @@
     background-color: brown;
     flex-direction: column;
     border-radius: 1.66rem 0 0 1.66rem;
-    margin-top: 45%;
+    margin-top: 48%;
     opacity: 1;
    
 }
@@ -313,13 +313,20 @@
   .footer>ul>li{
       padding: 0.27rem;
   }
+  .footer>ul>a{
+      text-decoration: none;
+  }
   .social{
       display: flex;
   }
-  .social>li{
+  .social>a{
       padding: 0.27rem;
   }
 
  .uil-facebook-f,.uil-instagram-alt,.uil-twitter,.uil-linkedin,.uil-youtube{
      color: #C74C46;
  }
+.copyright{
+    font-size: 0.5rem;
+    opacity: 0.5;
+}
