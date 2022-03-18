@@ -63,7 +63,7 @@
 }
 .head::before{
     content: '';
-    background-image: url('images.jpg');
+    background-image: url('images/images.jpg');
     
     position: absolute;
     top: 0px;
@@ -113,7 +113,7 @@
 }
 .sec3::before{
     content: '';
-    background-image: url('hands.jpg');
+    background-image: url('images/hands.jpg');
     height: 11.11rem;
     position: absolute;
     top: 0px;
