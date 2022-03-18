@@ -12,6 +12,16 @@
     /*  */
     
 }
+.btn3{
+    background-color: #F9A120;
+    color: black;
+    border-radius: 2rem;
+    font-weight: 500;
+    font-size: 0.7rem;
+    height: 2rem;
+    position: relative;
+    width: 9rem;
+}
 .btn2{
     background-color: white;
     color: black;
@@ -60,6 +70,9 @@
     /* padding: 1.8rem; */
    
     
+}
+.inpara{
+    font-size: 1.8rem;
 }
 .head::before{
     content: '';
@@ -121,7 +134,7 @@
     bottom: 0;
     left: 0;
     background-size: cover;
-    opacity: 0.3;
+    opacity: 0.1;
     
     
 }
@@ -136,7 +149,7 @@
 .sec1{
     color: white;
     font-weight: 200;
-    font-size: large;
+    font-size: 1.8rem;
     position: relative;
  
 }
@@ -200,7 +213,8 @@
 }
 .sec5>div>h2{
     margin-left: 10%;
-    margin-top: 8%;
+    margin-top: 3%;
+    font-size: 1.8rem;
 }
 .inpara1{
     background-color: brown;
@@ -211,6 +225,7 @@
     height: 8.33rem;
     border-radius: 0 1.66rem 1.66rem 0;
  padding: 0.277rem;
+ opacity: 0.8;
     
 
 }
@@ -235,7 +250,7 @@
     flex-direction: column;
     border-radius: 1.66rem 0 0 1.66rem;
     margin-top: 48%;
-    opacity: 1;
+    opacity: 0.9;
    
 }
 .inparaleft1>img{
@@ -251,6 +266,7 @@
      width: 100%;
      background-color: brown;
      border-radius: 1.66rem 0.83rem 0.83rem 1.66rem;
+     opacity: 0.9;
       
  }
   .sec8{
