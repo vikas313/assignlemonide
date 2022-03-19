@@ -296,6 +296,15 @@
       background-color: #F8F8F8;
       height: 27.77rem;
   }
+  .hub h1{
+      font-size: 2rem;
+      padding-left: 4rem;
+  }
+  .hub p{
+      padding-left: 4rem;
+      font-size: 0.9rem;
+      padding-top: 0;
+  }
   .hubimages{
       display: flex;
       justify-content: space-evenly;
@@ -317,6 +326,10 @@
   .hoveredinside{
    align-self: center;
    width: 50%;
+  }
+  .inparaleft1 span{
+      padding-left: 2rem;
+      color: white;
   }
   .footer{
       display: flex;
